@@ -67,3 +67,83 @@ and many third-party services (such as Facebook), AD DS supports federation.
 </details>
 
 ---
+
+#### Q3
+You would like to add a user who has a Microsoft account to your subscription. Which type of user
+account is this? Select one.
+
+- [ ] A. Cloud identity
+- [ ] B. Directory-Synchronized
+- [ ] C. Provider identity
+- [ ] D. Guest User
+- [ ] E. Hosted identity
+
+<details><summary>SHOW ANSWER</summary>
+<p>
+
+- [ ] A. Cloud identity
+- [ ] B. Directory-Synchronized
+- [ ] C. Provider identity
+- [x] D. Guest User
+- [ ] E. Hosted identity
+
+```
+Explanation
+Guest user. Guest users are users added to Azure AD from a third party like Microsoft or Google.
+```
+</p>
+</details>
+
+---
+
+#### Q4
+You are configuring Self-service Password Reset. Which of the following is not a validation method?
+Select one.
+
+- [ ] A. An email notification.
+- [ ] B. A text or code sent to a user's mobile or office phone.
+- [ ] C. A paging service.
+- [ ] D. A set of security questions
+
+<details><summary>SHOW ANSWER</summary>
+<p>
+
+- [ ] A. An email notification.
+- [ ] B. A text or code sent to a user's mobile or office phone.
+- [x] C. A paging service.
+- [ ] D. A set of security questions
+
+```
+Explanation
+A paging service. At least one authentication method is required to reset a password. Choices include email
+notification, a text or code sent to user’s mobile or office phone, or a set of security questions.
+```
+</p>
+</details>
+
+---
+
+#### Q5
+You are assigning Azure AD roles. Which role will allow the user to manage all the groups in your Teams
+tenants and be able to assign other administrator roles? Select one.
+
+- [ ] A. Global administrator
+- [ ] B. Password administrator
+- [ ] C. Security administrator
+- [ ] D. User administrator
+
+<details><summary>SHOW ANSWER</summary>
+<p>
+
+- [x] A. Global administrator
+- [ ] B. Password administrator
+- [ ] C. Security administrator
+- [ ] D. User administrator
+
+```
+Explanation
+Global administrator. Only the global administrator can manage groups across tenants and assign other
+administrator roles.
+```
+</p>
+</details>  
