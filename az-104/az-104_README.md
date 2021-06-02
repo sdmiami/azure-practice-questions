@@ -146,4 +146,196 @@ Global administrator. Only the global administrator can manage groups across ten
 administrator roles.
 ```
 </p>
-</details>  
+</details>
+
+---
+
+#### Q6
+You need to target policies and review spend budgets across several subscriptions you manage. What
+should you do? Select one.
+
+- [ ] A. Create resource groups
+- [ ] B. Create management groups
+- [ ] C. Create billing groups
+- [ ] D. Create Azure policies
+
+<details><summary>SHOW ANSWER</summary>
+<p>
+
+- [ ] A. Create resource groups
+- [x] B. Create management groups
+- [ ] C. Create billing groups
+- [ ] D. Create Azure policies
+
+```
+Explanation
+Create management groups. Management groups can be used to organize and manage subscriptions.
+```
+</p>
+</details>
+
+---
+
+#### Q7
+You would like to categorize resources and billing for different departments like IT and HR. The billing
+needs to be consolidated across multiple resource groups and you need to ensure everyone complies
+with the solution. What should you do? {Choose two to complete a solution}.
+
+- [ ] A. Create tags for each department.
+- [ ] B. Create a billing group for each department.
+- [ ] C. Create an Azure policy.
+- [ ] D. Add the groups into a single resource group.
+- [ ] E. Create a subscription account rule.
+
+<details><summary>SHOW ANSWER</summary>
+<p>
+
+- [x] A. Create tags for each department.
+- [ ] B. Create a billing group for each department.
+- [x] C. Create an Azure policy.
+- [ ] D. Add the groups into a single resource group.
+- [ ] E. Create a subscription account rule.
+
+```
+Explanation
+Create tags for each department and Create an Azure policy. You should create a tag with a key:value pair
+like department:HR. You can then create an Azure policy which requires the tag be applied before a resource
+is created.
+```
+</p>
+</details>
+
+---
+
+#### Q8
+Your company financial comptroller wants to be notified whenever the company is half-way to spending
+the money allocated for cloud services. What should you do? Select one.
+
+- [ ] A. Create an Azure reservation.
+- [ ] B. Create a budget and a spending threshold.
+- [ ] C. Create a management group.
+- [ ] D. Enter workloads in the Total Cost of Ownership calculator.
+
+<details><summary>SHOW ANSWER</summary>
+<p>
+
+- [ ] A. Create an Azure reservation.
+- [x] B. Create a budget and a spending threshold.
+- [ ] C. Create a management group.
+- [ ] D. Enter workloads in the Total Cost of Ownership calculator.
+
+```
+Explanation
+Create a budget and a spending threshold. Billing Alerts help you monitor and manage billing activity for
+your Azure accounts. You can set up a total of five billing alerts per subscription, with a different threshold
+and up to two email recipients for each alert. Monthly budgets are evaluated against spending every four
+hours. Budgets reset automatically at the end of a period.
+```
+</p>
+</details>
+
+---
+
+#### Q9
+Your organization has several Azure policies that they would like to create and enforce for a new branch
+office. What should you do? Select one.
+
+- [ ] A. Create a policy initiative
+- [ ] B. Create a management group
+- [ ] C. Create a resource group
+- [ ] D. Create a new subscriptions
+
+<details><summary>SHOW ANSWER</summary>
+<p>
+
+- [x] A. Create a policy initiative
+- [ ] B. Create a management group
+- [ ] C. Create a resource group
+- [ ] D. Create a new subscriptions
+
+```
+Explanation
+Create a policy initiative. A policy initiative would include all the policies of interest. Once your initiative is
+created, you can assign the definition to establish its scope. A scope determines what resources or grouping
+of resources the policy assignment gets enforced on.
+```
+</p>
+</details>
+
+---
+
+#### Q10
+Which of the following would be good example of when to use a resource lock? Select one.
+
+- [ ] A. An ExpressRoute circuit with connectivity back to your on-premises network.
+- [ ] B. A non-production virtual machine used to test occasional application builds.
+- [ ] C. A storage account used to temporarily store images processed in a development environment.
+- [ ] D. A resource group for a new branch office that is just starting up.
+
+<details><summary>SHOW ANSWER</summary>
+<p>
+
+- [x] A. An ExpressRoute circuit with connectivity back to your on-premises network.
+- [ ] B. A non-production virtual machine used to test occasional application builds.
+- [ ] C. A storage account used to temporarily store images processed in a development environment.
+- [ ] D. A resource group for a new branch office that is just starting up.
+```
+Explanation
+An ExpressRoute circuit with connectivity back to your on-premises network. Resource locks prevent other
+users in your organization from accidentally deleting or modifying critical resources.
+```
+</p>
+</details>
+
+---
+
+#### Q11
+Your company hires a new IT administrator. She needs to manage a resource group with first-tier web
+servers including assigning permissions . However, she should not have access to other resource groups
+inside the subscription. You need to configure role-based access. What should you do? Select one.
+
+- [ ] A. Assign her as a Subscription Owner.
+- [ ] B. Assign her as a Subscription Contributor.
+- [ ] C. Assign her as a Resource Group Owner.
+- [ ] D. Assign her as a Resource Group Contributor.
+
+<details><summary>SHOW ANSWER</summary>
+<p>
+
+- [ ] A. Assign her as a Subscription Owner.
+- [ ] B. Assign her as a Subscription Contributor.
+- [x] C. Assign her as a Resource Group Owner.
+- [ ] D. Assign her as a Resource Group Contributor.
+```
+Explanation
+Assign her as a Resource Group owner. The new IT administrator needs to be able to assign permissions.
+```
+</p>
+</details>
+
+---
+
+#### Q12
+You have three virtual machines (VM1, VM2, and VM3) in a resource group. The Helpdesk hires a new
+employee. The new employee must be able to modify the settings on VM3, but not on VM1 and VM2.
+Your solution must minimize administrative overhead. What should you do? Select one.
+
+- [ ] A. Assign the user to the Contributor role on the resource group.
+- [ ] B. Assign the user to the Contributor role on VM3.
+- [ ] C. Move VM3 to a new resource group and assign the user to the Contributor role on VM3.
+- [ ] D. Assign the user to the Contributor role on the resource group, then assign the user to the Owner role on VM3.
+
+<details><summary>SHOW ANSWER</summary>
+<p>
+
+- [ ] A. Assign the user to the Contributor role on the resource group.
+- [x] B. Assign the user to the Contributor role on VM3.
+- [ ] C. Move VM3 to a new resource group and assign the user to the Contributor role on VM3.
+- [ ] D. Assign the user to the Contributor role on the resource group, then assign the user to the Owner role on VM3.
+```
+Explanation
+Assign the user to the Contributor role on VM3. This means the user will not have access to VM1 or VM2.
+The Contributor role will allow the user to change the settings on VM1.
+```
+</p>
+</details>
